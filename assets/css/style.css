@@ -26,3 +26,39 @@ h1 {
     line-height: 70px;
     font-size: 20px;
 }
+
+/* quotes */
+
+h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+/* start drawing button */
+
+.button {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
+    padding: 20px;
+    margin: 50px;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+.button:hover {
+    border: 5px solid #fbd0ff;
+    background: #cfbef8;
+    color: rgb(19, 41, 114);
+    transition: 0.3s ease-in;
+    font-size: 1rem;
+}
