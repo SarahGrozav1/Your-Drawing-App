@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing App</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    
+    <!-- logo --> 
+</head>
+<body id="background">
+    <header>
+        <main>
+        
+            <a href="index.html" style="text-decoration: none">
+                <h1 id="logo" ">YOUR PLACE TO DRAW</h1>
+            </a>
+        </header>
+
+    <!-- drawing page -->
+
+  <div id="canva-page">
+    <canvas id="canvas"></canvas>
+        <div class="nav">
+            <div class="clr" data-clr="#D16BA5"></div>
+            <div class="clr" data-clr="#86A8E7"></div>
+            <div class="clr" data-clr="#5FFBF1"></div>
+            <div class="clr" data-clr="#6F6BD1"></div>
+            <div class="clr" data-clr="#17E58B"></div>
+            <div class="clr" data-clr="#EEFB5F"></div>
+            <div class="clr" data-clr="#D1856B"></div>
+            <div class="clr" data-clr="#A0FB4C"></div>
+
+            <button class="clear">Clear</button>
+            <button class="save">Save</button>
+            
+            <input type="color" value="#FFFFFF" id="favcolor">
+            <input type="range" name="ageInputName" id="ageInputId" value="5"
+            min="1" max="10" oninput="ageOutputId.value = ageInputId.value">
+            <output id="ageOutputId">5</output>  
+        </div>
+    </div>
+</main>
+
+     <script src="/assets/script/script.js"></script>
+    <noscript>
+        Your browser does not support JavaScript!
+    </noscript>
+  </body>
+</html>
