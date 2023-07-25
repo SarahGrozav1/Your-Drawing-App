@@ -205,6 +205,124 @@ lord-icon {
    height: 50vh;
 }
 
+/* canvas page */
+
+#canva-page {
+    width: 100%;
+    height: 50vh;
+}          
+
+#background {
+    background: white;
+}          
+
+.nav {
+    max-width: 80px;
+    width: 25%;
+    height: 100vh;
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    transform: translate(-50%);
+    background-color: rgba(43, 43, 43, 0.568);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.clr {
+    width: 35px;
+    height: 35px;
+    margin: 7px;
+    background-color: blue;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+.clr:hover {
+    transform: scale(1.2);
+}
+
+.clr:nth-child(1) {
+    background-color: #D16BA5;
+}
+
+.clr:nth-child(2) {
+    background-color: #86A8E7;
+}
+
+.clr:nth-child(3) {
+    background-color: #5FFBF1;
+}
+
+.clr:nth-child(4) {
+    background-color: #6F6BD1;
+}
+
+.clr:nth-child(5) {
+    background-color: #17E58B;
+}
+
+.clr:nth-child(6) {
+    background-color: #EEFB5F;
+}
+
+.clr:nth-child(7) {
+    background-color: #D1856B;
+}
+
+.clr:nth-child(8) {
+    background-color: #A0FB4C;
+}
+
+button {
+    width: 55px;
+    height: 40px;
+    margin: 5px;
+    margin-left: 10px;
+    border: 1px solid white;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+.clear {
+    background-color: #55002f;
+    color: white;
+}
+
+.save {
+    background-color: #003d39;
+    color: white;
+}
+
+input[type="color"] {
+    margin: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+#ageInputId {
+    width: 80%;
+    height: 20px;
+    margin: 10px;
+    margin-left: 18px;
+    background: linear-gradient(to right top, #eacff0, #d1d8ff, #a4e5ff, #6ff2ff, #5ffbf1);
+    -webkit-appearance: none;
+    cursor: ew-resize;
+    border-radius: 5px;
+    border: 1px solid #003d39;
+    accent-color: #003d39;
+}
+
 
 /* media query */
 
