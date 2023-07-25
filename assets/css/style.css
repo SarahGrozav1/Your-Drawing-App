@@ -161,3 +161,22 @@ h2 {
     transition: 0s;
     background: rgb(252, 148, 148);
 }
+
+/* footer */
+
+footer {
+    height: 60px;
+    background-color: #318d87;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer > h3 {
+    color: rgb(155, 20, 103);
+    font-size: 0.8rem;
+}
