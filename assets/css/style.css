@@ -213,6 +213,16 @@ lord-icon {
     .container {
         margin-left: 20px;
     }
+
+    #error {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    lord-icon {
+        height: 30vh;
+    }
+
 }
 
 @media screen and (max-width: 400px) {
@@ -224,6 +234,8 @@ lord-icon {
     footer {
         margin-top: 220px;
     }
+
+    
 }
 
 @media screen and (max-width: 280px) {
