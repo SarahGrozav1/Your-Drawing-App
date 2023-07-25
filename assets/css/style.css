@@ -182,6 +182,30 @@ footer {
     font-size: 0.8rem;
 }
 
+/* error page */
+
+#error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+#error  h1 {
+    font-size: 1.5rem;
+}
+
+#error  h2 {
+    font-size: 1rem;
+}
+
+lord-icon {
+   width: 100%;
+   height: 50vh;
+}
+
+
 /* media query */
 
 @media screen and (max-width: 450px) {
