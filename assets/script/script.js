@@ -6,13 +6,13 @@ const body = document.querySelector("body");
 canvas.height = window.innerHeight
 canvas.width = window.innerWidth
 
-let theColor = '';
-let lineW = 5;
-let prevX = null
-let prevY = null
-let draw = false
+var theColor = '';
+var lineW = 5;
+let prevX = null;
+let prevY = null;
+let draw = false;
 
- var theInput = document.getElementById("favcolor");
+var theInput = document.getElementById("favcolor");
 
 // Add event listener to change the background color of canva
 theInput.addEventListener("input", function(){
@@ -63,7 +63,7 @@ window.addEventListener("mousedown", (e) => draw = true);
 // Add event listener when mouse its up to dont draw
 window.addEventListener("mouseup", (e) => draw = false);
 // Add event listener when mouse its moving 
-window.addEventListener("mousemove", (e) => {
+window.addEventListener("mousemove", (e) =>  {
   if(prevX == null || prevY == null || !draw){
     prevX = e.clientX;
     prevY = e.clientY;
@@ -75,12 +75,13 @@ window.addEventListener("mousemove", (e) => {
 
   ctx.beginPath();
   ctx.moveTo(prevX, prevY);
-  ctx.lineTo(currentX, currentY);
+  ctx.lineTo(e.clientX, e.clientY);
   ctx.stroke();
 
   prevX = currentX;
   prevY = currentY;
 })
+
 
 
 

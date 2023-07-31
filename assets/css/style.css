@@ -37,20 +37,6 @@ h1 {
     height: 80vh;
 }
 
-/* quotes */
-
-h2 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 1rem;
-    font-weight: 400;
-    letter-spacing: 1.5px;
-    color: rgb(255, 255, 255);
-    line-height: 40px;
-    text-transform: uppercase;
-}
-
 /* start drawing button */
 
 .button {
@@ -58,19 +44,104 @@ h2 {
     justify-content: center;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    border: 3px solid rgb(255, 255, 255);
-    padding: 20px;
-    margin: 50px;
+    width: 30%;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 20px;
     margin-top: 30px;
+    margin-left: 60%;
     font-size: 1rem;
+    border-radius: 15px;
+    transition: .6s ease;
 }
 
 .button:hover {
-    border: 5px solid #fbd0ff;
-    background: #cfbef8;
-    color: rgb(19, 41, 114);
-    transition: 0.3s ease-in;
+    color: rgb(255, 143, 7);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+/* instructions button */
+
+.my-btn {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+  }
+
+  #popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid white;
     font-size: 1rem;
+    border-radius: 15px;
+    width: 30%;
+    height: 45px;
+    margin-left: 160px;
+    margin-bottom: 30px;
+    transition: .6s ease;
+  }
+
+  #popup:hover {
+    color: rgb(255, 143, 7);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+  }
+
+  .button-content {
+    background-color: #e1d012;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    width: 80%; 
+    transition: .5s ease;
+  }
+
+  .close {
+    color: #000000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+    
+  }
+
+  .close:hover,
+.close:focus {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+  p {
+    color: rgb(0, 0, 0);
+  }
+
+/* quotes */
+
+h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    color: #ffff12;
+    line-height: 40px;
+    margin-top: 10px;
+    text-transform: uppercase;
 }
 
 /* cubes hover effect - this code its from youtube */
@@ -347,6 +418,19 @@ input[type="color"] {
 
     .container {
         display: none;
+    }
+}
+
+@media screen and (max-width: 521px) {
+
+    .button {
+        width: 60%;
+        margin-left: 31%;
+    }
+
+    #popup {
+        width: 60%;
+        margin-left: 20px;
     }
 }
 
