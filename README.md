@@ -6,8 +6,7 @@ This is a simple drawing app for kids.
 
 ![Mockup image](imaginea cu responsive pe toate ecranele)
 
-[Live webpage](https://sarahgrozav1.github.io/AboveStudio/
-)
+[Live webpage]()
 
 # Introduction
 
@@ -54,8 +53,78 @@ User Story:
 > As a user I want to have more colors from where to choose for my lines
 
 Acceptance Criteria:
-* It should be clear that it is an app, what it is about.
+* It should have more colors from where to choose
 
 Implementation:
-* The logo and first button tells for what is this app for
+* There are eight different colors from where to choose
+
+User Story:
+
+> As a user I want to save my drawed canva
+
+Acceptance Criteria:
+* It should have a button for saving the drawed canva
+
+Implementation:
+* There it is a button with "save" text in it so that the user know where to save the drawed canva
+
+User Story:
+
+> As a user I want to clear my drawed canva to make another one
+
+Acceptance Criteria:
+* It should have a button to clear the canva
+
+Implementation:
+* There it is a button with "save" text in it so that the user know where to save the drawed canva
+
+User Story:
+
+> As a user I want to change my backgroung color so that it can be more fun to draw
+
+Acceptance Criteria:
+* It should be like a button for changing the background color
+
+Implementation:
+* There it is an input for changing the background color
+
+# The Skeleton Plane
+## Wireframe mockups
+I initially utilised Canva to produce wireframes of how the app would appear across different devices. The colors from the canvas are different from those in the application but the skeleton remained the same.
+
+### Home Page Big Screen Size 
+![Home Page Wireframe](/assets/documents/Home-big-screen.png)
+
+### Home Page Small Screen Size
+![Home Page Wireframes](/assets/documents/home-small-screen.png)
+
+### Canvas Page Big Screen Size
+![Canvas Page Wireframes](/assets/documents/drawing-big-screen.png)
+
+### Canvas Page Small Screen Size
+![Canvas Page Wireframes](/assets/documents/drawing-small-screen.png)
+
+## The Surface Plane
+
+### Design
+
+The design of this app it was thought as simple and precise as possible, to make it easy for the user, for kids.
+
+### Colour Scheme
+
+The default color scheme was inspired from mycolor.space. It can be found [here](https://mycolor.space/?hex=%23374E78&sub=1).
+
+### Typography
+
+Google fonts was utilised to find a font that would be clean and clear for all users, whilst still conveying an element of fun. I eventually settled on 'Roboto Mono', monospace font.
+
+## Features
+
+
+
+
+
+
+
+
 
