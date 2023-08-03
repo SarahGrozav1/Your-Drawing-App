@@ -223,8 +223,69 @@ There is a number bellow the thickness input that indicates the thickness of the
 
 > Eraser
 
-     It would be nice to include an eraser
+ It would be nice to include an eraser so that the user could eras only the desired lines.
+
+ > Geometric figures
+
+ If the user want to draw some geometric figures with sraight lines it could help him some geometric figures already there , he would need just to drag them in the canva and make the desired size.
+
+ > Straight Line
+
+ If the user want to make straight line, he could use the straight line from the tools bar that could help him to create what he wants.
+
+ > 3D line
+
+ A 3D line would be fun for the user to use.
+
+ > Neon and glitter colors
+
+ Adding neon colors and glittered colors that would shine the user would have more options and fun.
+
+ ## Testing
+
+ ### Validator Testing
+
+ * HTML
+
+  No errors were returned when passing through the official W3C Validator.
+
+* CSS
 
 
+
+* JavaScript
+
+
+
+* Lighthouse
+
+### Notable Bugs
+
+No bugs of note were discovered during the development or testing of the site. However frustration with the different requirements from different browsers was experienced. Multiple small visual errors were encountered during testing across different devices, browsers or browser versions which needed additional CSS style rules to overcome.
+
+## Deployment
+
+* The site was deployed to GitHub pages. The steps to deploy are as follows:
+  * In the GitHub repository, navigate to the settings tab
+  * Select the pages link from the setting menu on the left hand side 
+  * Under the GitHub Pages from the source section drop-down menu, select the master branch 
+  * One the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  
+  The live link can be found here -
+
+  ## Credits
+
+  ### Cube
+  * The code for the cube was taken from youtube. The source it's [here](https://www.youtube.com/watch?v=oc2S3Wo-I1A&t=401s).
+
+  ### Popup button
+  * Popup instructions button was taken from w3schools.com. The source it's [here](https://www.w3schools.com/howto/howto_css_modals.asp). I just added CSS.
+
+  ## Reference Material
+* W3 Schools was used as a reference point for HTML, CSS and JavaScript.
+
+### Acknowledgements
+I'd like to thank my mentor Daisy Mc for the guidance.
+And support of my family.
 
 

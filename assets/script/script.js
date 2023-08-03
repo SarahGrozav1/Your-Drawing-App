@@ -3,8 +3,8 @@ const canvas = document.getElementById("canvas");
 const body = document.querySelector("body");
 
 // height and width of the canva
-canvas.height = window.innerHeight
-canvas.width = window.innerWidth
+canvas.height = window.innerHeight;
+canvas.width = window.innerWidth;
 
 var theColor = '';
 var lineW = 5;
@@ -37,13 +37,13 @@ colors = Array.from(colors);
 colors.forEach(clr => {
   clr.addEventListener("click", () => {
     ctx.strokeStyle = clr.dataset.clr;
-  })
-})
+  });
+});
 
 // If clicked on clear button it will clear the canva
 let clearBtn = document.querySelector(".clear");
 clearBtn.addEventListener("click", () => {
-  ctx.clearRect(0, 0, canvas.width, canvas.height)
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
 });
 
 // If clicked on save button it will download the drawed canva 
@@ -55,7 +55,7 @@ saveBtn.addEventListener("click", () => {
   a.href = data;
   a.download = "drawing.png";
   a.click();
-})
+});
 
 
 // Add event listener when click to draw
@@ -68,7 +68,7 @@ window.addEventListener("mousemove", (e) =>  {
     prevX = e.clientX;
     prevY = e.clientY;
     return
-  }
+  };
 
   let currentX = e.clientX;
   let currentY = e.clientY;
@@ -80,7 +80,7 @@ window.addEventListener("mousemove", (e) =>  {
 
   prevX = currentX;
   prevY = currentY;
-})
+});
 
 
 
