@@ -247,31 +247,81 @@ There is a number bellow the thickness input that indicates the thickness of the
 
  * HTML
 
-  No errors were returned when passing through the official W3C Validator.
+  No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+
+  ![HTML-W3C Validator](/assets/documents/html-w3c.png)
+
+  Canva HTML File
+
+  ![Canva Html Validator](/assets/documents/HTML-canva-validator.png)
+
+  404 Error HTML File
+
+  ![404 HTML Validator](/assets/documents/HTML-404error-validator.png)
 
 * CSS
 
+I used [(Jigsaw) validator](https://jigsaw.w3.org) to test my code.
+Here it gives me three errors but I dont know why it says that it doesnt exist because I have took the code from w3school,( [here](https://www.w3schools.com/cssref/css_pr_translate.php) its the link )and without that code its not working.
 
+![CSS Validator](/assets/documents/CSS-validator.png)
 
 * JavaScript
 
+ No errors were returned when passing through the [JShint validator](https://jshint.com/).
 
+![JS Validator](/assets/documents/JavaScript-validator.png)
 
 * Lighthouse
 
+Lighthouse report generated showed a 100 SEO  The lowest score on any section was 99 for performance.
+
+![Lighthouse Report Big screen size](/assets/documents/Lighthouse-big.png)
+
+
+![Lighthouse Report Small screen size](/assets/documents/Lighthouse-small.png)
+
 ### Notable Bugs
 
-No bugs of note were discovered during the development or testing of the site. However frustration with the different requirements from different browsers was experienced. Multiple small visual errors were encountered during testing across different devices, browsers or browser versions which needed additional CSS style rules to overcome.
+There is one notable bug and this is about cursor start point. So, when it's drawing the line it's under the mouse about one ich.
 
-## Deployment
+## Deployment & Development
 
-* The site was deployed to GitHub pages. The steps to deploy are as follows:
-  * In the GitHub repository, navigate to the settings tab
-  * Select the pages link from the setting menu on the left hand side 
-  * Under the GitHub Pages from the source section drop-down menu, select the master branch 
-  * One the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-  
-  The live link can be found here -
+### Version Control
+
+The site was created using the VS Code editor.
+
+The following git commands were used throughout development to push code to the remote repo:
+
+```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+
+```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+
+```git push``` - This command was used to push all committed code to the remote repository on github.
+
+### Deployment
+
+The website was deployed using GitHub Pages by following these steps:
+
+1. In the GitHub respository navigate to the Settings tab.
+2. Select Pages from the menu on the left-hand side of the page.
+3. For the source select Branch: 'main' and then select: 'save'.
+4. After the webpage refreshes automatically a ribbon at the top will displays the following message: "Your site is live at "
+
+The website repository can be forked by the following steps:
+
+1. Go to the GitHub repository.
+2. Click on the Fork button in the upper right hand corner.
+
+The repository can be cloned by the following steps:
+
+1. Got to the GitHub repository.
+2. Locade the Code button above the list of files and click on it.
+3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard.
+4. Open Git Bash.
+5. Change the current working directory to the one where you want the cloned directory.
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press Enter to create your local clone.
 
   ## Credits
 
@@ -285,7 +335,8 @@ No bugs of note were discovered during the development or testing of the site. H
 * W3 Schools was used as a reference point for HTML, CSS and JavaScript.
 
 ### Acknowledgements
-I'd like to thank my mentor Daisy Mc for the guidance.
-And support of my family.
+I'd like to thank my mentor Daisy McGirr for the guidance,
+And to my family for the support.
 
 
+i dont know why it odoesnt exist because I have took from w3school here its the link and without it its not working

@@ -6,8 +6,8 @@ const body = document.querySelector("body");
 canvas.height = window.innerHeight;
 canvas.width = window.innerWidth;
 
-var theColor = '';
-var lineW = 5;
+let theColor = '';
+let lineW = 5;
 let prevX = null;
 let prevY = null;
 let draw = false;
