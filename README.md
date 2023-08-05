@@ -120,6 +120,12 @@ Google fonts was utilised to find a font that would be clean and clear for all u
 
 ## Features
 
+>Favicon
+
+There is a favicon for this project. I choose a pencil because this app it's about drawing.
+
+![Favicon](/assets/documents/favicon.png)
+
 > Home Page 
 
 The home page is the page of the site that the user is greeted by when they first visit. Here the user will have a header and bellow two buttons. One to start drawing and one with a popup intructions. Also a text with a quote is there and a cube with colorful hover effect. And the last one its a footer with a text "This it's an app just for educantional purposes".
@@ -272,6 +278,10 @@ Here it gives me three errors but I dont know why it says that it doesnt exist b
 
 ![JS Validator](/assets/documents/JavaScript-validator.png)
 
+Modal File
+
+![Modal File](/assets/documents/modal-validator.png)
+
 * Lighthouse
 
 Lighthouse report generated showed a 100 SEO  The lowest score on any section was 99 for performance.
@@ -283,7 +293,7 @@ Lighthouse report generated showed a 100 SEO  The lowest score on any section wa
 
 ### Notable Bugs
 
-There is one notable bug and this is about cursor start point. So, when it's drawing the line it's under the mouse about one ich.
+There is one notable bug and this is about cursor start point. So, when it's drawing the line it's under the mouse about one inch.
 
 ## Deployment & Development
 
@@ -335,8 +345,5 @@ The repository can be cloned by the following steps:
 * W3 Schools was used as a reference point for HTML, CSS and JavaScript.
 
 ### Acknowledgements
-I'd like to thank my mentor Daisy McGirr for the guidance,
-And to my family for the support.
-
-
-i dont know why it odoesnt exist because I have took from w3school here its the link and without it its not working
+I'd like to thank my mentor Daisy McGirr for the guidance 
+and to my family for the support.
