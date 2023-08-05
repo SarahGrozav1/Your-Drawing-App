@@ -6,7 +6,7 @@ This is a simple drawing app for kids.
 
 ![Mockup image](imaginea cu responsive pe toate ecranele)
 
-[Live webpage]()
+[Live webpage](https://sarahgrozav1.github.io/Your-Drawing-App/)
 
 # Introduction
 
